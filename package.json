@@ -26,18 +26,21 @@
     "@nestjs/common": "^7.6.15",
     "@nestjs/core": "^7.6.15",
     "@nestjs/platform-express": "^7.6.15",
+    "@nestjs/typeorm": "^7.1.5",
     "lodash": "^4.17.21",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.7",
-    "source-map-support": "^0.5.19"
+    "source-map-support": "^0.5.19",
+    "sqlite3": "^5.0.2",
+    "typeorm": "^0.2.32"
   },
   "devDependencies": {
     "@anatine/esbuild-decorators": "^0.2.6",
     "@nestjs/cli": "^7.6.0",
     "@nestjs/schematics": "^7.3.1",
     "@nestjs/testing": "^7.6.15",
-    "@swc/core": "^1.2.51",
+    "@swc/core": "^1.2.57",
     "@types/express": "^4.17.11",
     "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",
