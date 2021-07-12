@@ -13,6 +13,7 @@ async function esbuildTranspiler(sourceFilePath, buildFilePath) {
     entryPoints: [sourceFilePath],
     outfile: buildFilePath,
     format: 'cjs',
+    keepNames: true,
     tsconfig,
   })
 }
