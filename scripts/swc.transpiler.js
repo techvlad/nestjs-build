@@ -19,6 +19,7 @@ async function swcTranspiler(sourceFilePath, buildFilePath) {
         legacyDecorator: true,
         decoratorMetadata: true,
       },
+      keepClassNames: true,
     },
   })
 
